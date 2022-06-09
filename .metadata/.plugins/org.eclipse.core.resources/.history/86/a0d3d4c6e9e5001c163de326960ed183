@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : Practica_Parser.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "UTN.h"
+#include "Alumno.h"
+
+int main(void) {
+
+	FILE* pArchivo ;
+	char buffer [128];
+
+	pArchivo = fopen("NuevoArchivo.txt", "rd");
+	if(pArchivo != NULL)
+	{
+
+//		fgets(buffer, sizeof(buffer), pArchivo );
+//		printf("\n %s", buffer);
+		fread(buffer, sizeof(buffer))
+
+		fclose(pArchivo);
+
+	}else{
+		printf("\nNo se encontro el archivo");
+	}
+
+
+
+
+	return EXIT_SUCCESS;
+}
