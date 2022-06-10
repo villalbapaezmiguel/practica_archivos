@@ -1,505 +1,533 @@
-15:32:35 **** Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Practica_fscanf.o   
-Finished building target: Practica_fscanf
- 
-15:32:41 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:08:35 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
 make all 
 make: No se hace nada para 'all'.
-15:34:29 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:08:38 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
 make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
+make: No se hace nada para 'all'.
+20:14:01 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
 Building file: ../src/UTN.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
 Finished building: ../src/UTN.c
  
-Building target: Practica_fscanf
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
 Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
  
-15:35:12 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:17:39 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
 make all 
-Building file: ../src/Practica_fscanf.c
+Building file: ../src/ejercicio_18-2.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
  
-Building target: Practica_fscanf
+Building target: ejercicio_18-2
 Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
  
-15:35:15 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:17:54 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
 make all 
-make: No se hace nada para 'all'.
-15:35:36 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
+Building file: ../src/ejercicio_18-2.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:43:28 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:39:23: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
-   39 |    fscanf(pArchivo, "%d, %[^,] , %[^,] , %d", listaPersonas[i].id , listaPersonas[i].nombre , listaPersonas[i].apellido, listaPersonas[i].edad);
-      |                      ~^                       ~~~~~~~~~~~~~~~~~~~
-      |                       |                                       |
-      |                       int *                                   int
-../src/Practica_fscanf.c:39:43: warning: format ‘%d’ expects argument of type ‘int *’, but argument 6 has type ‘int’ [-Wformat=]
-   39 |    fscanf(pArchivo, "%d, %[^,] , %[^,] , %d", listaPersonas[i].id , listaPersonas[i].nombre , listaPersonas[i].apellido, listaPersonas[i].edad);
-      |                                          ~^                                                                              ~~~~~~~~~~~~~~~~~~~~~
-      |                                           |                                                                                              |
-      |                                           int *                                                                                          int
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:43:44 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:44:40 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:46:13: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
-   46 |    printf("%d, %s , %s , %d", &listaPersonas[i].id , listaPersonas[i].nombre , listaPersonas[i].apellido, &listaPersonas[i].edad)
-      |            ~^                 ~~~~~~~~~~~~~~~~~~~~
-      |             |                 |
-      |             int               int *
-      |            %ls
-../src/Practica_fscanf.c:46:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘int *’ [-Wformat=]
-   46 |    printf("%d, %s , %s , %d", &listaPersonas[i].id , listaPersonas[i].nombre , listaPersonas[i].apellido, &listaPersonas[i].edad)
-      |                          ~^                                                                               ~~~~~~~~~~~~~~~~~~~~~~
-      |                           |                                                                               |
-      |                           int                                                                             int *
-      |                          %ls
-../src/Practica_fscanf.c:46:130: error: expected ‘;’ before ‘}’ token
-   46 |    printf("%d, %s , %s , %d", &listaPersonas[i].id , listaPersonas[i].nombre , listaPersonas[i].apellido, &listaPersonas[i].edad)
-      |                                                                                                                                  ^
-      |                                                                                                                                  ;
-   47 |   }
-      |   ~                                                                                                                               
-make: *** [src/subdir.mk:26: src/Practica_fscanf.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-15:45:00 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:46:13: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
-   46 |    printf("%d, %s , %s , %d", &listaPersonas[j].id , listaPersonas[j].nombre , listaPersonas[j].apellido, &listaPersonas[j].edad)
-      |            ~^                 ~~~~~~~~~~~~~~~~~~~~
-      |             |                 |
-      |             int               int *
-      |            %ls
-../src/Practica_fscanf.c:46:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘int *’ [-Wformat=]
-   46 |    printf("%d, %s , %s , %d", &listaPersonas[j].id , listaPersonas[j].nombre , listaPersonas[j].apellido, &listaPersonas[j].edad)
-      |                          ~^                                                                               ~~~~~~~~~~~~~~~~~~~~~~
-      |                           |                                                                               |
-      |                           int                                                                             int *
-      |                          %ls
-../src/Practica_fscanf.c:46:130: error: expected ‘;’ before ‘}’ token
-   46 |    printf("%d, %s , %s , %d", &listaPersonas[j].id , listaPersonas[j].nombre , listaPersonas[j].apellido, &listaPersonas[j].edad)
-      |                                                                                                                                  ^
-      |                                                                                                                                  ;
-   47 |   }
-      |   ~                                                                                                                               
-make: *** [src/subdir.mk:26: src/Practica_fscanf.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-15:45:13 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:46:13: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
-   46 |    printf("%d, %s , %s , %d", &listaPersonas[j].id , listaPersonas[j].nombre , listaPersonas[j].apellido, &listaPersonas[j].edad);
-      |            ~^                 ~~~~~~~~~~~~~~~~~~~~
-      |             |                 |
-      |             int               int *
-      |            %ls
-../src/Practica_fscanf.c:46:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘int *’ [-Wformat=]
-   46 |    printf("%d, %s , %s , %d", &listaPersonas[j].id , listaPersonas[j].nombre , listaPersonas[j].apellido, &listaPersonas[j].edad);
-      |                          ~^                                                                               ~~~~~~~~~~~~~~~~~~~~~~
-      |                           |                                                                               |
-      |                           int                                                                             int *
-      |                          %ls
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:45:24 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:45:28 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:45:46 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:45:47 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:46:14 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:46:15 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:46:26 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:46:27 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:47:22 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:47:23 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:47:55 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:47:56 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:48:06 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:48:42 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:48:46 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:49:12 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:49:12 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:56:47 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:50:39: warning: passing argument 2 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
-   50 |   pArchivo = fopen("NuevoArchivo.txt",letra);
-      |                                       ^~~~~
-      |                                       |
-      |                                       char
-In file included from ../src/Practica_fscanf.c:11:
-/usr/include/stdio.h:246:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
-  246 | extern FILE *fopen (const char *__restrict __filename,
-      |              ^~~~~
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:57:18 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:57:21 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:57:54 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-15:57:56 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-15:58:18 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-16:00:06 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:34:7: warning: unused variable ‘leer’ [-Wunused-variable]
-   34 |  char leer = 'r';
-      |       ^~~~
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-16:00:10 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-16:00:53 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-16:01:02 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-make: No se hace nada para 'all'.
-16:01:16 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:34:7: warning: unused variable ‘leer’ [-Wunused-variable]
-   34 |  char leer = 'r';
-      |       ^~~~
-../src/Practica_fscanf.c:32:6: warning: unused variable ‘j’ [-Wunused-variable]
-   32 |  int j =0;
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:27:6: warning: unused variable ‘i’ [-Wunused-variable]
+   27 |  int i;
       |      ^
-../src/Practica_fscanf.c:31:6: warning: unused variable ‘i’ [-Wunused-variable]
-   31 |  int i = 0;
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:18:21 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:18:22 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:18:41 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:18:42 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:20:38 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:28:7: warning: unused variable ‘array’ [-Wunused-variable]
+   28 |  char array [3][51];
+      |       ^~~~~
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:23:49 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:23:49 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:24:46 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:24:46 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:24:48 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:25:23 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:25:24 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:25:36 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:25:36 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:25:38 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:25:58 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:25:59 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:26:00 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:26:11 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:26:12 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:58:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   58 |    printf("\n %s", array[i][0]);
+      |               ~^   ~~~~~~~~~~~
+      |                |           |
+      |                char *      int
+      |               %d
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:26:28 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:26:28 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:26:29 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:26:40 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:26:40 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:58:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[51]’ [-Wformat=]
+   58 |    printf("\n %s", &array[i]);
+      |               ~^   ~~~~~~~~~
+      |                |   |
+      |                |   char (*)[51]
+      |                char *
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:27:17 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:27:18 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:27:20 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:27:43 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:27:43 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:28:7: warning: unused variable ‘array’ [-Wunused-variable]
+   28 |  char array [3][51];
+      |       ^~~~~
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:28:09 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:28:10 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:28:7: warning: unused variable ‘array’ [-Wunused-variable]
+   28 |  char array [3][51];
+      |       ^~~~~
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:28:11 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:28:30 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:28:30 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:28:33 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:29:31 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:29:31 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:29:32 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:29:35 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:29:45 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:29:45 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:29:47 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:30:06 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:30:07 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:30:08 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:31:47 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:31:48 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:31:52 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:32:08 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:32:08 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:32:13 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:34:17 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:34:17 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:27:6: warning: unused variable ‘i’ [-Wunused-variable]
+   27 |  int i;
       |      ^
-../src/Practica_fscanf.c:30:10: warning: unused variable ‘listaPersonas’ [-Wunused-variable]
-   30 |  Persona listaPersonas[CANTIDAD_PERSONA];
-      |          ^~~~~~~~~~~~~
-Finished building: ../src/Practica_fscanf.c
+Finished building: ../src/ejercicio_18-2.c
  
-Building target: Practica_fscanf
+Building target: ejercicio_18-2
 Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
  
-16:01:21 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:34:22 **** Incremental Build of configuration Debug for project Practica ****
 make all 
 make: No se hace nada para 'all'.
-16:01:41 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:34:22 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
 make all 
-Building file: ../src/Practica_fscanf.c
+Building file: ../src/ejercicio_18-2.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:34:7: warning: unused variable ‘leer’ [-Wunused-variable]
-   34 |  char leer = 'r';
-      |       ^~~~
-Finished building: ../src/Practica_fscanf.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:27:6: warning: unused variable ‘i’ [-Wunused-variable]
+   27 |  int i;
+      |      ^
+Finished building: ../src/ejercicio_18-2.c
  
-Building target: Practica_fscanf
+Building target: ejercicio_18-2
 Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
  
-16:01:57 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:33:7: warning: unused variable ‘escribir’ [-Wunused-variable]
-   33 |  char escribir = 'w';
-      |       ^~~~~~~~
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-16:02:04 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:34:24 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
 make all 
 make: No se hace nada para 'all'.
-16:02:22 **** Incremental Build of configuration Debug for project Practica_fscanf ****
-make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:33:7: warning: unused variable ‘escribir’ [-Wunused-variable]
-   33 |  char escribir = 'w';
-      |       ^~~~~~~~
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-16:02:23 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:34:26 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
 make all 
 make: No se hace nada para 'all'.
-16:04:44 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:34:41 **** Incremental Build of configuration Debug for project Practica ****
 make all 
-Building file: ../src/Practica_fscanf.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:33:7: warning: unused variable ‘escribir’ [-Wunused-variable]
-   33 |  char escribir = 'w';
-      |       ^~~~~~~~
-Finished building: ../src/Practica_fscanf.c
- 
-Building target: Practica_fscanf
-Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
- 
-16:11:26 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+make: No se hace nada para 'all'.
+20:34:42 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
 make all 
-Building file: ../src/Practica_fscanf.c
+Building file: ../src/ejercicio_18-2.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
-../src/Practica_fscanf.c: In function ‘main’:
-../src/Practica_fscanf.c:33:7: warning: unused variable ‘escribir’ [-Wunused-variable]
-   33 |  char escribir = 'w';
-      |       ^~~~~~~~
-Finished building: ../src/Practica_fscanf.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:59:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   59 |    printf("\n %s", array[i]);
+      |               ~^   ~~~~~~~~
+      |                |        |
+      |                char *   int
+      |               %d
+../src/ejercicio_18-2.c:59:25: warning: ‘i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   59 |    printf("\n %s", array[i]);
+      |                    ~~~~~^~~
+Finished building: ../src/ejercicio_18-2.c
  
-Building target: Practica_fscanf
+Building target: ejercicio_18-2
 Invoking: GCC C Linker
-gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
-Finished building target: Practica_fscanf
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
  
-18:16:16 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:34:44 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:34:46 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:34:56 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:27:6: warning: unused variable ‘i’ [-Wunused-variable]
+   27 |  int i;
+      |      ^
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:35:19 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:27:6: warning: unused variable ‘i’ [-Wunused-variable]
+   27 |  int i;
+      |      ^
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:35:47 **** Incremental Build of configuration Debug for project Practica ****
+make all 
+make: No se hace nada para 'all'.
+20:35:47 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
+make all 
+Building file: ../src/ejercicio_18-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-2.d" -MT"src/ejercicio_18-2.o" -o "src/ejercicio_18-2.o" "../src/ejercicio_18-2.c"
+../src/ejercicio_18-2.c: In function ‘main’:
+../src/ejercicio_18-2.c:27:6: warning: unused variable ‘i’ [-Wunused-variable]
+   27 |  int i;
+      |      ^
+Finished building: ../src/ejercicio_18-2.c
+ 
+Building target: ejercicio_18-2
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-2"  ./src/UTN.o ./src/ejercicio_18-2.o   
+Finished building target: ejercicio_18-2
+ 
+20:35:52 **** Incremental Build of configuration Debug for project ejercicio_18-2 ****
 make all 
 make: No se hace nada para 'all'.

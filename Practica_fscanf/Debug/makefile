@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include src/subdir.mk
+-include subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -48,9 +49,9 @@ Practica_fscanf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 
 # Other Targets
 clean:
-	-$(RM) Practica_fscanf
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) Practica_fscanf
 	-@echo ' '
 
-.PHONY: all clean dependents main-build
+.PHONY: all clean dependents
 
 -include ../makefile.targets

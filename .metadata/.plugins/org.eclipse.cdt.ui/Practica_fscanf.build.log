@@ -1,6 +1,32 @@
-18:16:16 **** Incremental Build of configuration Debug for project Practica_fscanf ****
+20:08:29 **** Build of configuration Debug for project Practica_fscanf ****
 make all 
-make: No se hace nada para 'all'.
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_fscanf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_fscanf.d" -MT"src/Practica_fscanf.o" -o "src/Practica_fscanf.o" "../src/Practica_fscanf.c"
+../src/Practica_fscanf.c: In function ‘main’:
+../src/Practica_fscanf.c:35:7: warning: unused variable ‘escribir’ [-Wunused-variable]
+   35 |  char escribir = 'w';
+      |       ^~~~~~~~
+../src/Practica_fscanf.c:30:10: warning: unused variable ‘listaPersonas’ [-Wunused-variable]
+   30 |  Persona listaPersonas[CANTIDAD_PERSONA];
+      |          ^~~~~~~~~~~~~
+Finished building: ../src/Practica_fscanf.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Practica_fscanf
+Invoking: GCC C Linker
+gcc  -o "Practica_fscanf"  ./src/Alumno.o ./src/Practica_fscanf.o ./src/UTN.o   
+Finished building target: Practica_fscanf
+ 
 
-18:16:16 Build Finished. 0 errors, 0 warnings. (took 484ms)
+20:08:29 Build Finished. 0 errors, 2 warnings. (took 627ms)
 
