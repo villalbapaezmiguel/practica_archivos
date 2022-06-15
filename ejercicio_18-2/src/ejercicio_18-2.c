@@ -51,12 +51,9 @@ int main(void) {
 //		for (i = 0; i < 3; ++i) {
 //
 //		}
-//			fread(&array , sizeof(char) , 510 , pArchivo);
+			fread(array , sizeof(Alumno) , 22 , pArchivo);
+			printf("\n%s", array);
 
-//		for (i = 0; i < 3; ++i) {
-//			printf("\nhola");
-//		}
-			printf("%s \n", array);
 
 		fclose(pArchivo);
 	}

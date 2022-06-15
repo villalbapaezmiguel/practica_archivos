@@ -1,6 +1,6 @@
-20:35:47 **** Incremental Build of configuration Debug for project Practica ****
+22:04:59 **** Incremental Build of configuration Debug for project Practica ****
 make all 
 make: No se hace nada para 'all'.
 
-20:35:47 Build Finished. 0 errors, 0 warnings. (took 465ms)
+22:05:00 Build Finished. 0 errors, 0 warnings. (took 476ms)
 
