@@ -53,22 +53,17 @@ int main(void) {
 
 //	cargarArchivo(arrayPersona, 5, "ArchivoNuevo.csv");
 
-	LeerArchivo(auxLista, 5, "ArchivoNuevo.csv");
-	int auxId ;
-	char auxNombre[51];
-	float auxAltura;
 	int i ;
-	for (i = 0; i < 5; ++i) {
+	if(LeerArchivo(auxLista, 5, "ArchivoNuevo.csv") == 0)
+	{
+		for (i = 0; i < 5; ++i) {
 
-		if(persona_setId(auxLista[i], &auxId) == 0 &&
-			persona_setNombre(auxLista[i], auxNombre) == 0 &&
-			persona_setAltura(auxLista[i], &auxAltura) == 0)
-		{
-			printf("\n %s - %s - %s", auxLista[i].id , auxLista[i].nombre , auxLista[i].altura);
+				printf("\n %d - %s - %f", auxLista[i].id , auxLista[i].nombre , auxLista[i].altura);
 
 		}
-
 	}
+
+
 
 	return EXIT_SUCCESS;
 }
@@ -111,13 +106,28 @@ int LeerArchivo(Persona* lista, int limite , char* pathArchivo)
 {
 	int retorno = -1;
 	FILE* pArchivo ;
-
+	char var1[51],var2[51],var3[51];
+	int estado ;
 
 	pArchivo = fopen(pathArchivo, "r");
 	if(pArchivo != NULL)
 	{
 
-		fread(lista, sizeof(Persona), 1, pArchivo);
+//		fread(lista, sizeof(Persona), 1, pArchivo);
+
+		do {
+			estado = fscanf(pArchivo,"%[^,],%[^,],%[^\n]\n",var1, var2, var3);
+			if(estado == 3)
+			{
+	//			lista->id = atoi(var1);
+	//			strcpy(lista->nombre, var2);
+	//			lista->altura = atof(var3);
+				printf("\n%s-%s-%s",var1, var2, var3 );
+				retorno = 0;
+
+			}
+		} while (feof(pArchivo) == 0);
+
 
 		fclose(pArchivo);
 

@@ -35,9 +35,11 @@ int main(void)
 	{
 		printf("INIT OK");
 		// SOLO PARA TEST
-//		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"BBBBBB",1,0);
-//		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"AAAAAA",2,1);
-//		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"CCCCCC",3,2);
+		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"BBBBBB",1,0);
+		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"AAAAAA",2,1);
+		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"CCCCCC",3,2);
+		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"HHHHHH",4,3);
+
 		proximoId = 3;
 		// SOLO PARA TEST
 		do

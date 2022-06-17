@@ -1,10 +1,36 @@
-22:30:04 **** Build of configuration Debug for project Clase19_copia ****
+20:33:59 **** Build of configuration Debug for project Clase19_copia ****
 make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alumno_leerArrayEnArchivo’:
+../src/Alumno.c:539:6: warning: unused variable ‘i’ [-Wunused-variable]
+  539 |  int i;
+      |      ^
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Clase19.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
+Finished building: ../src/Clase19.c
+ 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
 Building target: Clase19_copia
 Invoking: GCC C Linker
 gcc  -o "Clase19_copia"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
 Finished building target: Clase19_copia
  
-22:30:15 **** Incremental Build of configuration Debug for project Clase19_copia ****
+20:34:11 **** Incremental Build of configuration Debug for project Clase19_copia ****
 make all 
 make: No se hace nada para 'all'.
+21:31:52 **** Build of configuration Debug for project Clase19 ****
+make all 
+Building target: Clase19
+Invoking: GCC C Linker
+gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
+Finished building target: Clase19
+ 

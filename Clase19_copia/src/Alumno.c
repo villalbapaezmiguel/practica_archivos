@@ -538,6 +538,10 @@ int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArc
 	int retorno=-1;
 	int i;
 	FILE* pArchivo ;
+	char auxId[510];
+	char auxNombre [510];
+	char auxAltura[510] ;
+
 
 	if(arrayPunteros != NULL && limite > 0 && pathArchivo != NULL)
 	{
@@ -545,13 +549,20 @@ int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArc
 		pArchivo = fopen(pathArchivo, "r");
 		if(pArchivo != NULL)
 		{
+			retorno = 0;
+
+			do {
+
+				if(fscanf(pArchivo, "%[^,],%[^,],%[^,\n]\n",auxId, auxNombre, auxAltura)== 3)
+				{
+					printf("\n%s-%s-%s",auxId, auxNombre, auxAltura );
+				}
+
+			} while (feof(pArchivo) == 0);
 
 
-
+			fclose(pArchivo);
 		}
-
-
-
 	}
 
 
