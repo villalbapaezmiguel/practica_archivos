@@ -29,6 +29,21 @@ Alumno* alumno_newParametros(char* nombre,float altura,int id)
 
 	if(this != NULL && nombre != NULL)
 	{
+				if(alumno_setAltura(this, altura) == -1  )
+				{
+					printf("\n setAltura salio mal");
+				}
+
+				if(alumno_setId(this, id) == -1  )
+				{
+					printf("\n setId salio mal");
+				}
+				if(alumno_setNombre(this, nombre) == -1 )
+				{
+					printf("\n setNombre salio mal");
+				}
+
+
 		if( alumno_setNombre(this, nombre) == -1 ||//si algunos de los set salio mal , vamos a elimonar el alumno
 			alumno_setAltura(this, altura) == -1 ||
 			alumno_setId(this, id) == -1 )
@@ -49,6 +64,20 @@ Alumno* alumno_newParametrosChar(char* nombre,char* altura,char* id)
 
 	if(this != NULL && nombre != NULL && altura != NULL && id != NULL)
 	{
+//		if(alumno_setNombre(this, nombre) == -1 )
+//		{
+//			printf("\n setNombre salio mal");
+//		}
+//		if(alumno_setAlturaTxt(this, altura) == -1 )
+//		{
+//			printf("\n setAltura salio mal");
+//		}
+//
+//		if(alumno_setIdTxt(this, id) == -1 )
+//		{
+//			printf("\n setId salio mal");
+//		}
+
 		if( alumno_setNombre(this, nombre) == -1 ||//si algunos de los set salio mal , vamos a elimonar el alumno
 			alumno_setAlturaTxt(this, altura) == -1 ||
 			alumno_setIdTxt(this, id) == -1 )
@@ -56,6 +85,7 @@ Alumno* alumno_newParametrosChar(char* nombre,char* altura,char* id)
 			alumno_delete(this);//esta funcion libera espacio , peor aun sigue apuntando en una direccion de memoria
 			//entonces hacemos que this apunte a NULL
 			this = NULL;
+//			printf("\nalguno de los set salio mal");
 
 		}
 	}
@@ -75,7 +105,7 @@ int alumno_setNombre(Alumno* this,char* nombre)
 	int retorno = -1;
 	if(this != NULL && nombre != NULL)
 	{
-		if(isValidNombre(nombre,NOMBRE_LEN))
+		if(isValidNombre(nombre,NOMBRE_LEN) == 0)
 		{
 			retorno = 0;
 			strncpy(this->nombre,nombre,NOMBRE_LEN);
@@ -159,7 +189,7 @@ int alumno_setAlturaTxt(Alumno* this,char* altura)
 
 	if(this != NULL && altura >= 0)
 	{
-		if(esFlotante(altura) == 1)
+		if(esFlotante(altura)== 0)
 		{
 			auxAltura = atof(altura);//lo tranfomarmos en un flotante
 
@@ -370,19 +400,48 @@ int alumno_agregarAlumnoArray(Alumno* arrayPunteros[],int limite, char* nombre, 
 {
 	int retorno=-1;
 	int indiceLibre;
+	Alumno* auxAlumno ;
 	if(arrayPunteros != NULL && limite > 0 && nombre != NULL && id >= 0)
 	{
 		indiceLibre = alumno_buscarLibreArray(arrayPunteros,limite);
 		if(indiceLibre >= 0)
 		{
-			arrayPunteros[indiceLibre] = alumno_newParametros(nombre,altura,id);
-			retorno = indiceLibre;
+			auxAlumno = alumno_newParametros(nombre,altura,id);
+			if(auxAlumno != NULL )
+			{
+				printf("\nllegue hasta aca");
+				arrayPunteros[indiceLibre] = auxAlumno;
+				retorno = indiceLibre;
+
+			}
 		}
 	}
 	return retorno;
 }
 
+int alumno_agregarAlumnoArrayTxt(Alumno* arrayPunteros[],int limite, char* nombre, char* altura, char* id)
+{
+	int retorno=-1;
+	int indiceLibre;
+	Alumno* auxAlumno;
+	if(arrayPunteros != NULL && limite > 0 && nombre != NULL && id != NULL)
+	{
+		indiceLibre = alumno_buscarLibreArray(arrayPunteros,limite);
+		if(indiceLibre >= 0)
+		{
 
+			auxAlumno = alumno_newParametrosChar(nombre, altura, id);
+			if(auxAlumno != NULL)
+			{
+				arrayPunteros[indiceLibre] = auxAlumno;
+				retorno = indiceLibre;
+
+			}
+
+		}
+	}
+	return retorno;
+}
 int alumno_borrarPorIdArray(Alumno* arrayPunteros[],int limite, int id)
 {
 	int retorno=-1;
@@ -532,11 +591,10 @@ int alumno_guardarArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* path
 }
 
 
-int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArchivo)
+int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArchivo , int* proximoId)
 {
 
 	int retorno=-1;
-	int i;
 	FILE* pArchivo ;
 	char auxId[510];
 	char auxNombre [510];
@@ -556,6 +614,17 @@ int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArc
 				if(fscanf(pArchivo, "%[^,],%[^,],%[^,\n]\n",auxId, auxNombre, auxAltura)== 3)
 				{
 					printf("\n%s-%s-%s",auxId, auxNombre, auxAltura );
+
+					if(alumno_agregarAlumnoArrayTxt(arrayPunteros, limite, auxNombre, auxAltura, auxId) > 0)
+					{
+						printf("\nAlta ok");
+
+						if(atoi(auxId) >= *proximoId)
+						{
+							*proximoId = atoi(auxId)+1;
+						}
+
+					}
 				}
 
 			} while (feof(pArchivo) == 0);

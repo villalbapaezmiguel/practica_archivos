@@ -35,10 +35,10 @@ int main(void)
 	{
 		printf("INIT OK");
 		// SOLO PARA TEST
-		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"BBBBBB",1,0);
-		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"AAAAAA",2,1);
-		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"CCCCCC",3,2);
-		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"HHHHHH",4,3);
+//		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"BBBBBB",1,0);
+//		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"AAAAAA",2,1);
+//		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"CCCCCC",3,2);
+//		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"HHHHHH",4,3);
 
 		proximoId = 3;
 		// SOLO PARA TEST
@@ -113,7 +113,7 @@ int main(void)
 					}
 					break;
 				case 9:
-					if(alumno_leerArrayEnArchivo(arrayPunterosAlumno,QTY_ALUMNOS, "data.csv") == 0)
+					if(alumno_leerArrayEnArchivo(arrayPunterosAlumno,QTY_ALUMNOS, "data.csv", &proximoId) == 0)
 					{
 
 						printf("\nArchivo cargado exitosamente !!");
