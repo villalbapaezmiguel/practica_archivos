@@ -11,11 +11,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 #include "UTN.h"
 
 int array_agregarDatos(int array[] , int* numeroIngresado , int posicion);
 void array_imprimir (int array [], int limite);
 int array_guardarDatos(int array [], int limite , char* NombreDelArchivo);
+int array_leerArchivo(int array [], int* limite ,char* nombreArchivo);
 int main(void) {
 
 /*Ejercicio 18-3:
@@ -31,6 +33,7 @@ archivo*/
 	int arrays [50];
 	int numeroIngresado ;
 	int contadorEnteros = 0;
+	int aux;
 	int opcion ;
 //
 
@@ -57,10 +60,18 @@ archivo*/
 
 		case 3://imprimir
 			printf("\n----------------------------lista-------------------------");
-			array_imprimir(arrays, contadorEnteros);
+			array_imprimir(arrays, aux);
 			break;
 
 		case 4://leer o obtener datos del archivo
+
+			printf("\n----------------------------Leeer archivo-------------------------");
+			if(array_leerArchivo(arrays,&aux , "archivo.csv") == 0)
+			{
+				printf("\nArchivo leido correctamente");
+			}
+
+
 			break;
 
 		case 5://salir
@@ -114,7 +125,7 @@ int array_guardarDatos(int array [], int limite , char* NombreDelArchivo)
 			retorno = 0;
 			for (i = 0; i < limite; ++i) {
 
-				fprintf(pArchivo, "%d - %d \n", i , array[i]);
+				fprintf(pArchivo, " %d \n", array[i]);
 			}
 
 			fclose(pArchivo);
@@ -158,6 +169,37 @@ void array_imprimir (int array [], int limite)
 	}
 
 
+}
+
+int array_leerArchivo(int array [], int* limite , char* nombreArchivo)
+{
+	int retorno = -1;
+	FILE *pArchivo ;
+//	char posicion [51];
+//	char valor [51];
+	int auxPosicion ;
+	int auxValor, i;
+//	char var1[22], var2[22];
+	int var1 ;
+	pArchivo = fopen(nombreArchivo, "r");
+	if(pArchivo != NULL)
+	{
+		retorno = 0;
+		printf("\n llegue hasta aca");
+		do {
+
+			fscanf(pArchivo,"%d\n",&var1 );
+//			auxValor = atoi(var1);
+			array[i] = var1;
+			i++;
+			printf("\n aux : %d",var1);
+
+		} while (feof(pArchivo)== 0);
+
+		*limite = i;
+		fclose(pArchivo);
+	}
+	return retorno ;
 }
 
 

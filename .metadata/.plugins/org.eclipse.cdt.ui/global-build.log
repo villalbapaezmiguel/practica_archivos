@@ -1,639 +1,27 @@
-20:33:59 **** Build of configuration Debug for project Clase19_copia ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c: In function ‘alumno_leerArrayEnArchivo’:
-../src/Alumno.c:539:6: warning: unused variable ‘i’ [-Wunused-variable]
-  539 |  int i;
-      |      ^
-Finished building: ../src/Alumno.c
- 
-Building file: ../src/Clase19.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
-Finished building: ../src/Clase19.c
- 
-Building file: ../src/utn.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
-Finished building: ../src/utn.c
- 
-Building target: Clase19_copia
-Invoking: GCC C Linker
-gcc  -o "Clase19_copia"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19_copia
- 
-20:34:11 **** Incremental Build of configuration Debug for project Clase19_copia ****
+21:21:45 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
-21:31:52 **** Build of configuration Debug for project Clase19 ****
-make all 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-18:54:29 **** Build of configuration Debug for project Clase19 ****
+21:21:50 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
-18:54:34 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-18:54:45 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-18:55:15 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Clase19.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
-Finished building: ../src/Clase19.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-18:55:17 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-18:58:35 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c:369:5: error: conflicting types for ‘alumno_agregarAlumnoArray’
-  369 | int alumno_agregarAlumnoArray(Alumno* arrayPunteros[],int limite, char* nombre, char altura, char id)
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../src/Alumno.c:11:
-../src/Alumno.h:40:5: note: previous declaration of ‘alumno_agregarAlumnoArray’ was here
-   40 | int alumno_agregarAlumnoArray(Alumno* arrayPunteros[],int limite, char* nombre, float altura, int id);
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
-../src/Alumno.c: In function ‘alumno_agregarAlumnoArrayTxt’:
-../src/Alumno.c:404:61: error: incompatible type for argument 2 of ‘alumno_newParametros’
-  404 |    arrayPunteros[indiceLibre] = alumno_newParametros(nombre,altura,id);
-      |                                                             ^~~~~~
-      |                                                             |
-      |                                                             char *
-../src/Alumno.c:25:49: note: expected ‘float’ but argument is of type ‘char *’
-   25 | Alumno* alumno_newParametros(char* nombre,float altura,int id)
-      |                                           ~~~~~~^~~~~~
-../src/Alumno.c:404:68: warning: passing argument 3 of ‘alumno_newParametros’ makes integer from pointer without a cast [-Wint-conversion]
-  404 |    arrayPunteros[indiceLibre] = alumno_newParametros(nombre,altura,id);
-      |                                                                    ^~
-      |                                                                    |
-      |                                                                    char *
-../src/Alumno.c:25:60: note: expected ‘int’ but argument is of type ‘char *’
-   25 | Alumno* alumno_newParametros(char* nombre,float altura,int id)
-      |                                                        ~~~~^~
-../src/Alumno.c: In function ‘alumno_leerArrayEnArchivo’:
-../src/Alumno.c:563:6: warning: unused variable ‘i’ [-Wunused-variable]
-  563 |  int i;
-      |      ^
-make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-19:00:59 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c: In function ‘alumno_agregarAlumnoArrayTxt’:
-../src/Alumno.c:395:16: error: incompatible types when assigning to type ‘Alumno’ {aka ‘struct <anonymous>’} from type ‘Alumno *’ {aka ‘struct <anonymous> *’}
-  395 |    auxAlumno = alumno_newParametrosChar(nombre, altura, id);
-      |                ^~~~~~~~~~~~~~~~~~~~~~~~
-../src/Alumno.c:396:17: error: invalid operands to binary != (have ‘Alumno’ {aka ‘struct <anonymous>’} and ‘void *’)
-  396 |    if(auxAlumno != NULL)
-      |                 ^~
-../src/Alumno.c:398:34: error: incompatible types when assigning to type ‘Alumno *’ {aka ‘struct <anonymous> *’} from type ‘Alumno’ {aka ‘struct <anonymous>’}
-  398 |     arrayPunteros[indiceLibre] = auxAlumno;
-      |                                  ^~~~~~~~~
-../src/Alumno.c: In function ‘alumno_leerArrayEnArchivo’:
-../src/Alumno.c:560:6: warning: unused variable ‘i’ [-Wunused-variable]
-  560 |  int i;
-      |      ^
-make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-19:01:40 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c: In function ‘alumno_agregarAlumnoArrayTxt’:
-../src/Alumno.c:395:16: error: incompatible types when assigning to type ‘Alumno’ {aka ‘struct <anonymous>’} from type ‘Alumno *’ {aka ‘struct <anonymous> *’}
-  395 |    auxAlumno = alumno_newParametrosChar(nombre, altura, id);
-      |                ^~~~~~~~~~~~~~~~~~~~~~~~
-../src/Alumno.c:396:17: error: invalid operands to binary != (have ‘Alumno’ {aka ‘struct <anonymous>’} and ‘void *’)
-  396 |    if(auxAlumno != NULL)
-      |                 ^~
-../src/Alumno.c:398:34: error: incompatible types when assigning to type ‘Alumno *’ {aka ‘struct <anonymous> *’} from type ‘Alumno’ {aka ‘struct <anonymous>’}
-  398 |     arrayPunteros[indiceLibre] = auxAlumno;
-      |                                  ^~~~~~~~~
-../src/Alumno.c: In function ‘alumno_leerArrayEnArchivo’:
-../src/Alumno.c:560:6: warning: unused variable ‘i’ [-Wunused-variable]
-  560 |  int i;
-      |      ^
-make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-19:02:03 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c: In function ‘alumno_leerArrayEnArchivo’:
-../src/Alumno.c:560:6: warning: unused variable ‘i’ [-Wunused-variable]
-  560 |  int i;
-      |      ^
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:02:23 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:08:21 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c:556:5: error: conflicting types for ‘alumno_leerArrayEnArchivo’
-  556 | int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArchivo , int* proximoId)
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../src/Alumno.c:11:
-../src/Alumno.h:47:5: note: previous declaration of ‘alumno_leerArrayEnArchivo’ was here
-   47 | int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArchivo);
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
-make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-19:08:36 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building file: ../src/Clase19.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
-../src/Clase19.c: In function ‘main’:
-../src/Clase19.c:116:9: error: too few arguments to function ‘alumno_leerArrayEnArchivo’
-  116 |      if(alumno_leerArrayEnArchivo(arrayPunterosAlumno,QTY_ALUMNOS, "data.csv") == 0)
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../src/Clase19.c:5:
-../src/Alumno.h:47:5: note: declared here
-   47 | int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArchivo , int* proximoId);
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
-make: *** [src/subdir.mk:26: src/Clase19.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-19:08:52 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Clase19.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
-../src/Clase19.c: In function ‘main’:
-../src/Clase19.c:116:80: warning: passing argument 4 of ‘alumno_leerArrayEnArchivo’ makes pointer from integer without a cast [-Wint-conversion]
-  116 |      if(alumno_leerArrayEnArchivo(arrayPunterosAlumno,QTY_ALUMNOS, "data.csv", proximoId) == 0)
-      |                                                                                ^~~~~~~~~
-      |                                                                                |
-      |                                                                                int
-In file included from ../src/Clase19.c:5:
-../src/Alumno.h:47:93: note: expected ‘int *’ but argument is of type ‘int’
-   47 | int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArchivo , int* proximoId);
-      |                                                                                        ~~~~~^~~~~~~~~
-Finished building: ../src/Clase19.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:08:56 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Clase19.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
-Finished building: ../src/Clase19.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:09:00 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:10:26 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:10:27 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:10:51 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:10:52 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:11:06 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:11:08 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:12:36 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:12:39 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:14:07 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:14:19 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:14:20 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:17:37 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:17:41 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:21:55 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:21:56 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:22:31 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:22:34 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:22:35 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:22:55 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:22:58 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:23:40 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:24:16 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:24:19 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:27:03 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:27:38 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Clase19.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
-Finished building: ../src/Clase19.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:27:53 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:27:54 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:32:52 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:32:53 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:35:12 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:35:14 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:35:31 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:35:32 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:36:19 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c: In function ‘alumno_newParametros’:
-../src/Alumno.c:36:34: error: incompatible type for argument 2 of ‘alumno_setAlturaTxt’
-   36 |     if(alumno_setAlturaTxt(this, altura) == -1 )
-      |                                  ^~~~~~
-      |                                  |
-      |                                  float
-In file included from ../src/Alumno.c:11:
-../src/Alumno.h:30:44: note: expected ‘char *’ but argument is of type ‘float’
-   30 | int alumno_setAlturaTxt(Alumno* this,char* altura);
-      |                                      ~~~~~~^~~~~~
-../src/Alumno.c:41:30: warning: passing argument 2 of ‘alumno_setIdTxt’ makes pointer from integer without a cast [-Wint-conversion]
-   41 |     if(alumno_setIdTxt(this, id) == -1 )
-      |                              ^~
-      |                              |
-      |                              int
-In file included from ../src/Alumno.c:11:
-../src/Alumno.h:25:40: note: expected ‘char *’ but argument is of type ‘int’
-   25 | int alumno_setIdTxt(Alumno* this,char* id);
-      |                                  ~~~~~~^~
-make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-19:36:35 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c: In function ‘alumno_newParametros’:
-../src/Alumno.c:41:30: warning: passing argument 2 of ‘alumno_setIdTxt’ makes pointer from integer without a cast [-Wint-conversion]
-   41 |     if(alumno_setIdTxt(this, id) == -1 )
-      |                              ^~
-      |                              |
-      |                              int
-In file included from ../src/Alumno.c:11:
-../src/Alumno.h:25:40: note: expected ‘char *’ but argument is of type ‘int’
-   25 | int alumno_setIdTxt(Alumno* this,char* id);
-      |                                  ~~~~~~^~
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:36:46 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:36:48 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:38:49 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:38:50 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:43:34 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:43:37 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-20:16:44 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-20:18:43 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Clase19.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
-Finished building: ../src/Clase19.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-20:19:02 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-20:19:04 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-20:42:01 **** Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-20:43:17 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-20:50:48 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:22:40 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:26:6: warning: unused variable ‘i’ [-Wunused-variable]
-   26 |  int i ;
-      |      ^
-../src/ejercicio_18-3.c:25:6: warning: unused variable ‘aux’ [-Wunused-variable]
-   25 |  int aux[5];
-      |      ^~~
-../src/ejercicio_18-3.c:32:3: warning: ‘opcion’ is used uninitialized in this function [-Wuninitialized]
-   32 |   switch(opcion)
-      |   ^~~~~~
-../src/ejercicio_18-3.c: In function ‘GuardarDatos’:
-../src/ejercicio_18-3.c:95:9: warning: ‘retorno’ is used uninitialized in this function [-Wuninitialized]
-   95 |  return retorno;
-      |         ^~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |                ^
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -641,25 +29,30 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-20:52:09 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:22:41 **** Incremental Build of configuration Debug for project practica_cargarArchivoCSV ****
+make all 
+make: No se hace nada para 'all'.
+21:22:43 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:23:33 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:26:6: warning: unused variable ‘i’ [-Wunused-variable]
-   26 |  int i ;
-      |      ^
-../src/ejercicio_18-3.c:25:6: warning: unused variable ‘aux’ [-Wunused-variable]
-   25 |  int aux[5];
-      |      ^~~
-../src/ejercicio_18-3.c:35:3: warning: ‘opcion’ is used uninitialized in this function [-Wuninitialized]
-   35 |   switch(opcion)
-      |   ^~~~~~
-../src/ejercicio_18-3.c: In function ‘GuardarDatos’:
-../src/ejercicio_18-3.c:98:9: warning: ‘retorno’ is used uninitialized in this function [-Wuninitialized]
-   98 |  return retorno;
-      |         ^~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |                ^
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -667,22 +60,33 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-20:52:56 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:23:33 **** Incremental Build of configuration Debug for project practica_cargarArchivoCSV ****
+make all 
+make: No se hace nada para 'all'.
+21:23:47 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:23:48 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:24:46 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:26:6: warning: unused variable ‘i’ [-Wunused-variable]
-   26 |  int i ;
-      |      ^
-../src/ejercicio_18-3.c:25:6: warning: unused variable ‘aux’ [-Wunused-variable]
-   25 |  int aux[5];
-      |      ^~~
-../src/ejercicio_18-3.c: In function ‘GuardarDatos’:
-../src/ejercicio_18-3.c:98:9: warning: ‘retorno’ is used uninitialized in this function [-Wuninitialized]
-   98 |  return retorno;
-      |         ^~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |                ^
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -690,27 +94,27 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-20:54:47 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:24:48 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:25:02 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:26:6: warning: unused variable ‘i’ [-Wunused-variable]
-   26 |  int i ;
-      |      ^
-../src/ejercicio_18-3.c:25:6: warning: unused variable ‘aux’ [-Wunused-variable]
-   25 |  int aux[5];
-      |      ^~~
-../src/ejercicio_18-3.c:24:7: warning: unused variable ‘array’ [-Wunused-variable]
-   24 |  char array[5];
-      |       ^~~~~
-../src/ejercicio_18-3.c:23:6: warning: unused variable ‘numeros’ [-Wunused-variable]
-   23 |  int numeros [5] = {1,2,3,4,5};
-      |      ^~~~~~~
-../src/ejercicio_18-3.c:22:8: warning: unused variable ‘pArchivo’ [-Wunused-variable]
-   22 |  FILE* pArchivo ;
-      |        ^~~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |                ^
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -718,35 +122,24 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-21:04:48 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:25:14 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:26:6: warning: unused variable ‘i’ [-Wunused-variable]
-   26 |  int i ;
-      |      ^
-../src/ejercicio_18-3.c:25:6: warning: unused variable ‘aux’ [-Wunused-variable]
-   25 |  int aux[5];
-      |      ^~~
-../src/ejercicio_18-3.c:24:7: warning: unused variable ‘array’ [-Wunused-variable]
-   24 |  char array[5];
-      |       ^~~~~
-../src/ejercicio_18-3.c:23:6: warning: unused variable ‘numeros’ [-Wunused-variable]
-   23 |  int numeros [5] = {1,2,3,4,5};
-      |      ^~~~~~~
-../src/ejercicio_18-3.c:22:8: warning: unused variable ‘pArchivo’ [-Wunused-variable]
-   22 |  FILE* pArchivo ;
-      |        ^~~~~~~~
-../src/ejercicio_18-3.c: In function ‘array_agregarDatos’:
-../src/ejercicio_18-3.c:112:25: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
-  112 |    array[posicionLibre] = numeroIngresado;
-      |                         ^
-At top level:
-../src/ejercicio_18-3.c:120:12: warning: ‘array_siguientePosicionLibre’ defined but not used [-Wunused-function]
-  120 | static int array_siguientePosicionLibre(int array [], int limite )
-      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |                ^
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -754,160 +147,267 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-21:05:20 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:25:33 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:26:05 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:34:18: error: ‘opcion’ undeclared (first use in this function)
-   34 |   utn_getNumero(&opcion, "\nIngtrese opcion :", "\nERROR", 1, 5, 2);
-      |                  ^~~~~~
-../src/ejercicio_18-3.c:34:18: note: each undeclared identifier is reported only once for each function it appears in
-../src/ejercicio_18-3.c: In function ‘array_agregarDatos’:
-../src/ejercicio_18-3.c:113:25: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
-  113 |    array[posicionLibre] = numeroIngresado;
-      |                         ^
-At top level:
-../src/ejercicio_18-3.c:121:12: warning: ‘array_siguientePosicionLibre’ defined but not used [-Wunused-function]
-  121 | static int array_siguientePosicionLibre(void)
-      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |                ^
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:26:06 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:26:58 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |                ^
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  180 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:27:11 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:28:13 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:28:14 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:29:22 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+../src/ejercicio_18-3.c:192:9: warning: ‘i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  192 |    array[i] = auxValor;
+      |         ^
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:29:25 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:29:54 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:29:58 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:31:00 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:31:15 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:32:28 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  181 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  179 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:32:31 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:33:51 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  182 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:33:54 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:35:26 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:35:28 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:36:46 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:195:24: error: expected ‘)’ before ‘array’
+  195 |    printf("\n aux : %d" array[i]);
+      |                        ^~~~~~
+      |                        )
+../src/ejercicio_18-3.c:195:22: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  195 |    printf("\n aux : %d" array[i]);
+      |                     ~^
+      |                      |
+      |                      int
+../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  182 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 make: *** [src/subdir.mk:23: src/ejercicio_18-3.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-21:05:33 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:36:50 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_agregarDatos’:
-../src/ejercicio_18-3.c:113:25: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
-  113 |    array[posicionLibre] = numeroIngresado;
-      |                         ^
-At top level:
-../src/ejercicio_18-3.c:121:12: warning: ‘array_siguientePosicionLibre’ defined but not used [-Wunused-function]
-  121 | static int array_siguientePosicionLibre(void)
-      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:05:53 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_agregarDatos’:
-../src/ejercicio_18-3.c:113:4: error: invalid type argument of unary ‘*’ (have ‘int’)
-  113 |    *array[posicionLibre] = numeroIngresado;
-      |    ^~~~~~~~~~~~~~~~~~~~~
-At top level:
-../src/ejercicio_18-3.c:121:12: warning: ‘array_siguientePosicionLibre’ defined but not used [-Wunused-function]
-  121 | static int array_siguientePosicionLibre(void)
-      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:195:25: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  195 |    printf("\n aux : %d" &array[i]);
+      |           ~~~~~~~~~~~~~ ^~~~~~~~~
+      |           |                   |
+      |           char *              int
+../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  182 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 make: *** [src/subdir.mk:23: src/ejercicio_18-3.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-21:06:00 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:37:07 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_agregarDatos’:
-../src/ejercicio_18-3.c:113:26: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
-  113 |    *array[posicionLibre] = numeroIngresado;
-      |                          ^
-At top level:
-../src/ejercicio_18-3.c:121:12: warning: ‘array_siguientePosicionLibre’ defined but not used [-Wunused-function]
-  121 | static int array_siguientePosicionLibre(void)
-      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:06:17 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c:121:12: warning: ‘array_siguientePosicionLibre’ defined but not used [-Wunused-function]
-  121 | static int array_siguientePosicionLibre(void)
-      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:06:26 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c:121:12: warning: ‘array_siguientePosicionLibre’ defined but not used [-Wunused-function]
-  121 | static int array_siguientePosicionLibre(void)
-      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:07:37 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:10:58 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:44:33: warning: passing argument 2 of ‘array_agregarDatos’ makes pointer from integer without a cast [-Wint-conversion]
-   44 |      array_agregarDatos(arrays, numeroIngresado);
-      |                                 ^~~~~~~~~~~~~~~
-      |                                 |
-      |                                 int
-../src/ejercicio_18-3.c:17:43: note: expected ‘int *’ but argument is of type ‘int’
-   17 | int array_agregarDatos(int array[] , int* numeroIngresado );
-      |                                      ~~~~~^~~~~~~~~~~~~~~
-../src/ejercicio_18-3.c: At top level:
-../src/ejercicio_18-3.c:138:1: error: expected identifier or ‘(’ before ‘{’ token
-  138 | {
-      | ^
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:195:24: error: expected ‘)’ before ‘array’
+  195 |    printf("\n aux : %d"array[i]);
+      |                        ^~~~~
+      |                        )
+../src/ejercicio_18-3.c:195:22: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  195 |    printf("\n aux : %d"array[i]);
+      |                     ~^
+      |                      |
+      |                      int
+../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  182 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 make: *** [src/subdir.mk:23: src/ejercicio_18-3.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-21:11:09 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:37:27 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:44:33: warning: passing argument 2 of ‘array_agregarDatos’ makes pointer from integer without a cast [-Wint-conversion]
-   44 |      array_agregarDatos(arrays, numeroIngresado);
-      |                                 ^~~~~~~~~~~~~~~
-      |                                 |
-      |                                 int
-../src/ejercicio_18-3.c:17:43: note: expected ‘int *’ but argument is of type ‘int’
-   17 | int array_agregarDatos(int array[] , int* numeroIngresado );
-      |                                      ~~~~~^~~~~~~~~~~~~~~
-../src/ejercicio_18-3.c:44:6: warning: ‘numeroIngresado’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-   44 |      array_agregarDatos(arrays, numeroIngresado);
-      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
+  182 |  char var1[22], var2[22];
+      |                 ^~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -915,114 +415,24 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-21:12:03 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:45:33: warning: passing argument 2 of ‘array_agregarDatos’ makes pointer from integer without a cast [-Wint-conversion]
-   45 |      array_agregarDatos(arrays, numeroIngresado);
-      |                                 ^~~~~~~~~~~~~~~
-      |                                 |
-      |                                 int
-../src/ejercicio_18-3.c:17:43: note: expected ‘int *’ but argument is of type ‘int’
-   17 | int array_agregarDatos(int array[] , int* numeroIngresado );
-      |                                      ~~~~~^~~~~~~~~~~~~~~
-../src/ejercicio_18-3.c: In function ‘imprimir’:
-../src/ejercicio_18-3.c:144:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
-  144 |   printf("\n%d numero : %d", i, array[i]);
-      |                         ~^      ~~~~~~~~
-      |                          |           |
-      |                          int         int *
-      |                         %ls
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:45:6: warning: ‘numeroIngresado’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-   45 |      array_agregarDatos(arrays, numeroIngresado);
-      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:12:21 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘imprimir’:
-../src/ejercicio_18-3.c:144:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
-  144 |   printf("\n%d numero : %d", i, array[i]);
-      |                         ~^      ~~~~~~~~
-      |                          |           |
-      |                          int         int *
-      |                         %ls
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:12:38 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘imprimir’:
-../src/ejercicio_18-3.c:144:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int **’ [-Wformat=]
-  144 |   printf("\n%d numero : %d", i, &array[i]);
-      |                         ~^      ~~~~~~~~~
-      |                          |      |
-      |                          int    int **
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:13:00 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘imprimir’:
-../src/ejercicio_18-3.c:144:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
-  144 |   printf("\n%d numero : %d", i, array[i]);
-      |                         ~^      ~~~~~~~~
-      |                          |           |
-      |                          int         int *
-      |                         %ls
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:53:06 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:53:08 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:37:30 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
-21:53:53 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:38:40 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:182:16: warning: unused variable ‘var2’ [-Wunused-variable]
+  182 |  int var1[22], var2[22];
+      |                ^~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+../src/ejercicio_18-3.c:193:13: warning: ‘auxValor’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  193 |    array[i] = auxValor;
+      |    ~~~~~~~~~^~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -1030,23 +440,27 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-21:53:55 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:38:47 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
-21:54:32 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:39:13 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:52:19: warning: passing argument 1 of ‘array_imprimir’ from incompatible pointer type [-Wincompatible-pointer-types]
-   52 |    array_imprimir(arrays, 50);
-      |                   ^~~~~~
-      |                   |
-      |                   int *
-../src/ejercicio_18-3.c:18:27: note: expected ‘int **’ but argument is of type ‘int *’
-   18 | void array_imprimir (int* array [], int limite);
-      |                      ~~~~~^~~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:193:13: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+  193 |    array[i] = var1;
+      |             ^
+../src/ejercicio_18-3.c:182:16: warning: unused variable ‘var2’ [-Wunused-variable]
+  182 |  int var1[22], var2[22];
+      |                ^~~~
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -1054,114 +468,93 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-21:54:34 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:39:37 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:191:24: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
+  191 |    fscanf(pArchivo,"\n%d",var1 );
+      |                       ~^  ~~~~
+      |                        |  |
+      |                        |  int
+      |                        int *
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+../src/ejercicio_18-3.c:191:4: warning: ‘var1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  191 |    fscanf(pArchivo,"\n%d",var1 );
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:39:44 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:39:51 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:39:52 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
-21:55:48 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:52:19: warning: passing argument 1 of ‘array_imprimir’ from incompatible pointer type [-Wincompatible-pointer-types]
-   52 |    array_imprimir(arrays, 50);
-      |                   ^~~~~~
-      |                   |
-      |                   int *
-../src/ejercicio_18-3.c:18:27: note: expected ‘int **’ but argument is of type ‘int *’
-   18 | void array_imprimir (int* array [], int limite);
-      |                      ~~~~~^~~~~~~~
-../src/ejercicio_18-3.c: In function ‘array_imprimir’:
-../src/ejercicio_18-3.c:145:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
-  145 |   printf("\n%d numero : %d", i, array[i]);
-      |                         ~^      ~~~~~~~~
-      |                          |           |
-      |                          int         int *
-      |                         %ls
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:55:54 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:40:09 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
-21:57:13 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:54:19: warning: passing argument 1 of ‘array_imprimir’ from incompatible pointer type [-Wincompatible-pointer-types]
-   54 |    array_imprimir(arrays, contadorEnteros);
-      |                   ^~~~~~
-      |                   |
-      |                   int *
-../src/ejercicio_18-3.c:18:27: note: expected ‘int **’ but argument is of type ‘int *’
-   18 | void array_imprimir (int* array [], int limite);
-      |                      ~~~~~^~~~~~~~
-../src/ejercicio_18-3.c: In function ‘array_imprimir’:
-../src/ejercicio_18-3.c:147:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
-  147 |   printf("\n%d numero : %d", i, array[i]);
-      |                         ~^      ~~~~~~~~
-      |                          |           |
-      |                          int         int *
-      |                         %ls
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:57:25 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘main’:
-../src/ejercicio_18-3.c:54:19: warning: passing argument 1 of ‘array_imprimir’ from incompatible pointer type [-Wincompatible-pointer-types]
-   54 |    array_imprimir(arrays, contadorEnteros);
-      |                   ^~~~~~
-      |                   |
-      |                   int *
-../src/ejercicio_18-3.c:18:27: note: expected ‘int **’ but argument is of type ‘int *’
-   18 | void array_imprimir (int* array [], int limite);
-      |                      ~~~~~^~~~~~~~
-../src/ejercicio_18-3.c: At top level:
-../src/ejercicio_18-3.c:141:6: error: conflicting types for ‘array_imprimir’
-  141 | void array_imprimir (int array [], int limite)
-      |      ^~~~~~~~~~~~~~
-../src/ejercicio_18-3.c:18:6: note: previous declaration of ‘array_imprimir’ was here
-   18 | void array_imprimir (int* array [], int limite);
-      |      ^~~~~~~~~~~~~~
-make: *** [src/subdir.mk:23: src/ejercicio_18-3.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-21:57:32 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:57:36 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:40:12 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
-22:00:43 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:40:54 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c:131:12: warning: ‘array_siguientePosicionLibre’ defined but not used [-Wunused-function]
-  131 | static int array_siguientePosicionLibre(void)
-      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -1169,11 +562,33 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-22:01:02 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:41:06 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:41:22 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:41:24 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:42:03 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:42:05 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+make: No se hace nada para 'all'.
+21:42:22 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -1181,14 +596,21 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-22:01:05 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:42:23 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
-22:07:32 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:42:39 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -1196,14 +618,30 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-22:07:33 **** Build of configuration Debug for project practica_cargarArchivoCSV ****
+21:42:40 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
-22:08:03 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:43:07 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:191:22: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
+  191 |    fscanf(pArchivo,"%d\n",var1 );
+      |                     ~^    ~~~~
+      |                      |    |
+      |                      |    int
+      |                      int *
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+../src/ejercicio_18-3.c:191:4: warning: ‘var1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  191 |    fscanf(pArchivo,"%d\n",var1 );
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -1211,20 +649,18 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-22:08:04 **** Incremental Build of configuration Debug for project practica_cargarArchivoCSV ****
-make all 
-make: No se hace nada para 'all'.
-22:08:14 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-22:08:15 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-22:11:27 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:43:18 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 Building file: ../src/ejercicio_18-3.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
 Finished building: ../src/ejercicio_18-3.c
  
 Building target: ejercicio_18-3
@@ -1232,6 +668,25 @@ Invoking: GCC C Linker
 gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
 Finished building target: ejercicio_18-3
  
-22:11:31 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+21:43:27 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+make all 
+Building file: ../src/ejercicio_18-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
+../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
+../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
+  181 |  int auxValor, i;
+      |      ^~~~~~~~
+../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
+  180 |  int auxPosicion ;
+      |      ^~~~~~~~~~~
+Finished building: ../src/ejercicio_18-3.c
+ 
+Building target: ejercicio_18-3
+Invoking: GCC C Linker
+gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
+Finished building target: ejercicio_18-3
+ 
+21:43:38 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
 make all 
 make: No se hace nada para 'all'.
