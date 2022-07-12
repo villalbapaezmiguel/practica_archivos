@@ -1,692 +1,1531 @@
-21:21:45 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+19:20:14 **** Build of configuration Debug for project Practica_ABM ****
 make all 
-make: No se hace nada para 'all'.
-21:21:50 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:22:40 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Practica_ABM.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |                ^
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
  
-Building target: ejercicio_18-3
+Building target: Practica_ABM
 Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
+gcc  -o "Practica_ABM"  ./src/Practica_ABM.o   
+Finished building target: Practica_ABM
  
-21:22:41 **** Incremental Build of configuration Debug for project practica_cargarArchivoCSV ****
+19:20:18 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
 make: No se hace nada para 'all'.
-21:22:43 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+19:30:47 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-make: No se hace nada para 'all'.
-21:23:33 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Practica_ABM.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |                ^
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:23:33 **** Incremental Build of configuration Debug for project practica_cargarArchivoCSV ****
-make all 
-make: No se hace nada para 'all'.
-21:23:47 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:23:48 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:24:46 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |                ^
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:24:48 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:25:02 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |                ^
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:25:14 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |                ^
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:25:33 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:26:05 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |                ^
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:26:06 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:26:58 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:16: warning: unused variable ‘i’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |                ^
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  180 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:27:11 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:28:13 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:28:14 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:29:22 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-../src/ejercicio_18-3.c:192:9: warning: ‘i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  192 |    array[i] = auxValor;
-      |         ^
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:29:25 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:29:54 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:29:58 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:31:00 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:31:15 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:32:28 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  181 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:179:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  179 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:32:31 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:33:51 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  182 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:33:54 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:35:26 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:35:28 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:36:46 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:195:24: error: expected ‘)’ before ‘array’
-  195 |    printf("\n aux : %d" array[i]);
-      |                        ^~~~~~
-      |                        )
-../src/ejercicio_18-3.c:195:22: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
-  195 |    printf("\n aux : %d" array[i]);
-      |                     ~^
-      |                      |
-      |                      int
-../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  182 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-make: *** [src/subdir.mk:23: src/ejercicio_18-3.o] Error 1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+../src/Practica_ABM.c: In function ‘main’:
+../src/Practica_ABM.c:34:206: error: expected ‘;’ before ‘utn_pedirInt’
+   34 |   printf("\n1 Alta persona \n2 Baja persona \n3 Modificar persona\n4 Ordenar por nombre \n5 Imprimir \n6 Informe promedio alturas \n7 Informe persona mas alto \n8 Guardar a Archivo \n9 leer desde archivo")
+      |                                                                                                                                                                                                              ^
+      |                                                                                                                                                                                                              ;
+   35 |   utn_pedirInt(&opcion, "\nIngrese opcion : ", "\nerror", 1, 2, 2);
+      |   ~~~~~~~~~~~~                                                                                                                                                                                                
+make: *** [src/subdir.mk:23: src/Practica_ABM.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-21:36:50 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+19:30:56 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Practica_ABM.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:195:25: error: invalid operands to binary & (have ‘char *’ and ‘int’)
-  195 |    printf("\n aux : %d" &array[i]);
-      |           ~~~~~~~~~~~~~ ^~~~~~~~~
-      |           |                   |
-      |           char *              int
-../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  182 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-make: *** [src/subdir.mk:23: src/ejercicio_18-3.o] Error 1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+19:35:09 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+../src/Practica_ABM.c: In function ‘main’:
+../src/Practica_ABM.c:30:2: error: unknown type name ‘Persona’
+   30 |  Persona* listaPersona[30];
+      |  ^~~~~~~
+../src/Practica_ABM.c:30:11: warning: unused variable ‘listaPersona’ [-Wunused-variable]
+   30 |  Persona* listaPersona[30];
+      |           ^~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Practica_ABM.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-21:37:07 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+19:35:21 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Practica_ABM.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:195:24: error: expected ‘)’ before ‘array’
-  195 |    printf("\n aux : %d"array[i]);
-      |                        ^~~~~
-      |                        )
-../src/ejercicio_18-3.c:195:22: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
-  195 |    printf("\n aux : %d"array[i]);
-      |                     ~^
-      |                      |
-      |                      int
-../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  182 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-make: *** [src/subdir.mk:23: src/ejercicio_18-3.o] Error 1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+../src/Practica_ABM.c: In function ‘main’:
+../src/Practica_ABM.c:31:11: warning: unused variable ‘listaPersona’ [-Wunused-variable]
+   31 |  Persona* listaPersona[30];
+      |           ^~~~~~~~~~~~
+Finished building: ../src/Practica_ABM.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+19:37:13 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+../src/Practica_ABM.c: In function ‘main’:
+../src/Practica_ABM.c:31:11: warning: unused variable ‘listaPersona’ [-Wunused-variable]
+   31 |  Persona* listaPersona[30];
+      |           ^~~~~~~~~~~~
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+19:50:04 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_alta’:
+../src/Persona.c:57:25: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   57 |   utn_getNombre(auxLista->nombre, NOMBRE_LEN, "\nIngrese nombre :", "\nERROR", 2);
+      |                         ^~
+../src/Persona.c:58:24: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   58 |   utn_pedirInt(auxLista->edad, "\nIngrese edad :", "\nERROR", 1, 130, 2);
+      |                        ^~
+../src/Persona.c:59:26: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   59 |   utn_pedirFloat(auxLista->altura, "\nIngreese altura :", "\nERROR ",0.70, 3.20, 2);
+      |                          ^~
+../src/Persona.c:60:31: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   60 |   utn_pedirInt(auxLista.pFecha->dia, "\nIngrese dia :", "nERROR", 1, 30, 2);
+      |                ~~~~~~~~~~~~~~~^~~~~
+      |                               |
+      |                               int
+In file included from ../src/Persona.h:16,
+                 from ../src/Persona.c:8:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+../src/Persona.c:61:31: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   61 |   utn_pedirInt(auxLista.pFecha->mes, "\nIngrese mes :", "nERROR", 1, 12, 2);
+      |                ~~~~~~~~~~~~~~~^~~~~
+      |                               |
+      |                               int
+In file included from ../src/Persona.h:16,
+                 from ../src/Persona.c:8:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+../src/Persona.c:62:31: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   62 |   utn_pedirInt(auxLista.pFecha->anio, "\nIngrese añio :", "nERROR", 1980, 2022, 2);
+      |                ~~~~~~~~~~~~~~~^~~~~~
+      |                               |
+      |                               int
+In file included from ../src/Persona.h:16,
+                 from ../src/Persona.c:8:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-21:37:27 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+19:50:19 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Persona.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:182:17: warning: unused variable ‘var2’ [-Wunused-variable]
-  182 |  char var1[22], var2[22];
-      |                 ^~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_alta’:
+../src/Persona.c:58:24: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   58 |   utn_pedirInt(auxLista->edad, "\nIngrese edad :", "\nERROR", 1, 130, 2);
+      |                        ^~
+../src/Persona.c:59:26: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   59 |   utn_pedirFloat(auxLista->altura, "\nIngreese altura :", "\nERROR ",0.70, 3.20, 2);
+      |                          ^~
+../src/Persona.c:60:31: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   60 |   utn_pedirInt(auxLista.pFecha->dia, "\nIngrese dia :", "nERROR", 1, 30, 2);
+      |                ~~~~~~~~~~~~~~~^~~~~
+      |                               |
+      |                               int
+In file included from ../src/Persona.h:16,
+                 from ../src/Persona.c:8:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+../src/Persona.c:61:31: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   61 |   utn_pedirInt(auxLista.pFecha->mes, "\nIngrese mes :", "nERROR", 1, 12, 2);
+      |                ~~~~~~~~~~~~~~~^~~~~
+      |                               |
+      |                               int
+In file included from ../src/Persona.h:16,
+                 from ../src/Persona.c:8:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+../src/Persona.c:62:31: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   62 |   utn_pedirInt(auxLista.pFecha->anio, "\nIngrese añio :", "nERROR", 1980, 2022, 2);
+      |                ~~~~~~~~~~~~~~~^~~~~~
+      |                               |
+      |                               int
+In file included from ../src/Persona.h:16,
+                 from ../src/Persona.c:8:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:50:52 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_alta’:
+../src/Persona.c:58:24: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   58 |   utn_pedirInt(auxLista.edad, "\nIngrese edad :", "\nERROR", 1, 130, 2);
+      |                ~~~~~~~~^~~~~
+      |                        |
+      |                        int
+In file included from ../src/Persona.h:16,
+                 from ../src/Persona.c:8:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+../src/Persona.c:59:26: error: incompatible type for argument 1 of ‘utn_pedirFloat’
+   59 |   utn_pedirFloat(auxLista.altura, "\nIngreese altura :", "\nERROR ",0.70, 3.20, 2);
+      |                  ~~~~~~~~^~~~~~~
+      |                          |
+      |                          float
+In file included from ../src/Persona.h:16,
+                 from ../src/Persona.c:8:
+../src/UTN.h:21:27: note: expected ‘float *’ but argument is of type ‘float’
+   21 | int utn_pedirFloat(float *pNumero , char *mensaje , char *mensajeError, float minimo , float maximo , int repeticiones);
+      |                    ~~~~~~~^~~~~~~
+../src/Persona.c:60:31: error: ‘auxLista.pFecha’ is a pointer; did you mean to use ‘->’?
+   60 |   utn_pedirInt(auxLista.pFecha.dia, "\nIngrese dia :", "nERROR", 1, 30, 2);
+      |                               ^
+      |                               ->
+../src/Persona.c:61:31: error: ‘auxLista.pFecha’ is a pointer; did you mean to use ‘->’?
+   61 |   utn_pedirInt(auxLista.pFecha.mes, "\nIngrese mes :", "nERROR", 1, 12, 2);
+      |                               ^
+      |                               ->
+../src/Persona.c:62:31: error: ‘auxLista.pFecha’ is a pointer; did you mean to use ‘->’?
+   62 |   utn_pedirInt(auxLista.pFecha.anio, "\nIngrese añio :", "nERROR", 1980, 2022, 2);
+      |                               ^
+      |                               ->
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:51:22 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_alta’:
+../src/Persona.c:60:32: error: ‘auxLista.pFecha’ is a pointer; did you mean to use ‘->’?
+   60 |   utn_pedirInt(&auxLista.pFecha.dia, "\nIngrese dia :", "nERROR", 1, 30, 2);
+      |                                ^
+      |                                ->
+../src/Persona.c:61:32: error: ‘auxLista.pFecha’ is a pointer; did you mean to use ‘->’?
+   61 |   utn_pedirInt(&auxLista.pFecha.mes, "\nIngrese mes :", "nERROR", 1, 12, 2);
+      |                                ^
+      |                                ->
+../src/Persona.c:62:32: error: ‘auxLista.pFecha’ is a pointer; did you mean to use ‘->’?
+   62 |   utn_pedirInt(&auxLista.pFecha.anio, "\nIngrese añio :", "nERROR", 1980, 2022, 2);
+      |                                ^
+      |                                ->
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:51:45 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_alta’:
+../src/Persona.c:61:32: error: ‘auxLista.pFecha’ is a pointer; did you mean to use ‘->’?
+   61 |   utn_pedirInt(&auxLista.pFecha.mes, "\nIngrese mes :", "nERROR", 1, 12, 2);
+      |                                ^
+      |                                ->
+../src/Persona.c:62:32: error: ‘auxLista.pFecha’ is a pointer; did you mean to use ‘->’?
+   62 |   utn_pedirInt(&auxLista.pFecha.anio, "\nIngrese añio :", "nERROR", 1980, 2022, 2);
+      |                                ^
+      |                                ->
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:51:54 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
  
-Building target: ejercicio_18-3
+Building target: Practica_ABM
 Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
  
-21:37:30 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+19:54:30 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+19:55:37 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_alta’:
+../src/Persona.c:65:24: error: incompatible types when assigning to type ‘Persona *’ {aka ‘struct <anonymous> *’} from type ‘Persona’ {aka ‘struct <anonymous>’}
+   65 |    lista[lugarLibre] = auxLista ;
+      |                        ^~~~~~~~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:55:44 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+19:58:26 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c:10:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   10 | static int nuevoId (void)
+      |            ^~~~~~~
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+../src/Practica_ABM.c: In function ‘main’:
+../src/Practica_ABM.c:31:11: warning: unused variable ‘listaPersona’ [-Wunused-variable]
+   31 |  Persona* listaPersona[30];
+      |           ^~~~~~~~~~~~
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+19:58:33 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c:10:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   10 | static int nuevoId (void)
+      |            ^~~~~~~
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+19:58:58 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:01:42 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:02:30 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+../src/Practica_ABM.c: In function ‘main’:
+../src/Practica_ABM.c:31:11: warning: unused variable ‘listaPersona’ [-Wunused-variable]
+   31 |  Persona* listaPersona[30];
+      |           ^~~~~~~~~~~~
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:02:58 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:07:25 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:07:32 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
 make: No se hace nada para 'all'.
-21:38:40 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:07:57 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Practica_ABM.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:182:16: warning: unused variable ‘var2’ [-Wunused-variable]
-  182 |  int var1[22], var2[22];
-      |                ^~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-../src/ejercicio_18-3.c:193:13: warning: ‘auxValor’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  193 |    array[i] = auxValor;
-      |    ~~~~~~~~~^~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
  
-Building target: ejercicio_18-3
+Building target: Practica_ABM
 Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
  
-21:38:47 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:08:01 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
 make: No se hace nada para 'all'.
-21:39:13 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:193:13: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
-  193 |    array[i] = var1;
-      |             ^
-../src/ejercicio_18-3.c:182:16: warning: unused variable ‘var2’ [-Wunused-variable]
-  182 |  int var1[22], var2[22];
-      |                ^~~~
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:39:37 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:191:24: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
-  191 |    fscanf(pArchivo,"\n%d",var1 );
-      |                       ~^  ~~~~
-      |                        |  |
-      |                        |  int
-      |                        int *
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-../src/ejercicio_18-3.c:191:4: warning: ‘var1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  191 |    fscanf(pArchivo,"\n%d",var1 );
-      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:39:44 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:39:51 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:39:52 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:08:42 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
 make: No se hace nada para 'all'.
-21:40:09 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:08:49 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
 make: No se hace nada para 'all'.
-21:40:12 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:08:59 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-make: No se hace nada para 'all'.
-21:40:54 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Practica_ABM.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
  
-Building target: ejercicio_18-3
+Building target: Practica_ABM
 Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
  
-21:41:06 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:09:00 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
 make: No se hace nada para 'all'.
-21:41:22 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:11:55 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-make: No se hace nada para 'all'.
-21:41:24 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:42:03 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:42:05 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-make: No se hace nada para 'all'.
-21:42:22 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
-make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Practica_ABM.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
  
-Building target: ejercicio_18-3
+Building target: Practica_ABM
 Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
  
-21:42:23 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:12:31 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:12:32 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
 make: No se hace nada para 'all'.
-21:42:39 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:12:41 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Persona.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
  
-Building target: ejercicio_18-3
+Building target: Practica_ABM
 Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
  
-21:42:40 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:12:42 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
 make: No se hace nada para 'all'.
-21:43:07 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:13:13 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Persona.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:191:22: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
-  191 |    fscanf(pArchivo,"%d\n",var1 );
-      |                     ~^    ~~~~
-      |                      |    |
-      |                      |    int
-      |                      int *
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-../src/ejercicio_18-3.c:191:4: warning: ‘var1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-  191 |    fscanf(pArchivo,"%d\n",var1 );
-      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
  
-Building target: ejercicio_18-3
+Building target: Practica_ABM
 Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
  
-21:43:18 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:13:20 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Persona.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
- 
-Building target: ejercicio_18-3
-Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
- 
-21:43:27 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_Inicializar’:
+../src/Persona.c:26:4: error: invalid type argument of unary ‘*’ (have ‘int’)
+   26 |    *lista[i]->estado = VACIO;
+      |    ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:13:31 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
-Building file: ../src/ejercicio_18-3.c
+Building file: ../src/Persona.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio_18-3.d" -MT"src/ejercicio_18-3.o" -o "src/ejercicio_18-3.o" "../src/ejercicio_18-3.c"
-../src/ejercicio_18-3.c: In function ‘array_leerArchivo’:
-../src/ejercicio_18-3.c:181:6: warning: unused variable ‘auxValor’ [-Wunused-variable]
-  181 |  int auxValor, i;
-      |      ^~~~~~~~
-../src/ejercicio_18-3.c:180:6: warning: unused variable ‘auxPosicion’ [-Wunused-variable]
-  180 |  int auxPosicion ;
-      |      ^~~~~~~~~~~
-Finished building: ../src/ejercicio_18-3.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
  
-Building target: ejercicio_18-3
+Building target: Practica_ABM
 Invoking: GCC C Linker
-gcc  -o "ejercicio_18-3"  ./src/UTN.o ./src/ejercicio_18-3.o   
-Finished building target: ejercicio_18-3
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
  
-21:43:38 **** Incremental Build of configuration Debug for project ejercicio_18-3 ****
+20:13:48 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:13:49 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:13:58 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:14:04 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:14:44 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:14:46 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:17:10 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:17:12 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:17:19 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:18:38 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:18:42 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:18:48 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:19:54 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:19:59 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:20:28 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:20:30 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:21:10 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:21:11 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:22:00 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:22:37 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_Alta’:
+../src/Persona.c:73:4: error: invalid type argument of unary ‘*’ (have ‘int’)
+   73 |    *lista[lugarLibre]->estado = OCUPADO;
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:22:41 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:23:26 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:23:28 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:23:30 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:23:41 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:25:23 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_Inicializar’:
+../src/Persona.c:21:12: error: invalid operands to binary != (have ‘Persona’ {aka ‘struct <anonymous>’} and ‘void *’)
+   21 |  if(*lista != NULL && tamanio >= 0)
+      |     ~~~~~~ ^~
+      |     |
+      |     Persona {aka struct <anonymous>}
+../src/Persona.c:26:12: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   26 |    lista[i]->estado = VACIO;
+      |            ^~
+../src/Persona.c: In function ‘lista_BuscarLugarLibre’:
+../src/Persona.c:38:12: error: invalid operands to binary != (have ‘Persona’ {aka ‘struct <anonymous>’} and ‘void *’)
+   38 |  if(*lista != NULL && tamanio >= 0)
+      |     ~~~~~~ ^~
+      |     |
+      |     Persona {aka struct <anonymous>}
+../src/Persona.c:42:15: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   42 |    if(lista[i]->estado == VACIO)
+      |               ^~
+../src/Persona.c:45:13: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   45 |     lista[i]->estado = OCUPADO;
+      |             ^~
+../src/Persona.c: In function ‘lista_Alta’:
+../src/Persona.c:73:21: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   73 |    lista[lugarLibre]->estado = OCUPADO;
+      |                     ^~
+../src/Persona.c: In function ‘lista_Imprimir’:
+../src/Persona.c:89:15: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   89 |    if(lista[i]->estado == OCUPADO)
+      |               ^~
+../src/Persona.c:92:90: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                          ^~
+../src/Persona.c:92:104: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                        ^~
+../src/Persona.c:92:122: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                          ^~
+../src/Persona.c:92:138: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                          ^~
+../src/Persona.c:92:156: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                            ^~
+../src/Persona.c:92:179: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                   ^~
+../src/Persona.c:92:202: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                                          ^~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:25:31 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_Inicializar’:
+../src/Persona.c:21:12: error: invalid operands to binary != (have ‘Persona’ {aka ‘struct <anonymous>’} and ‘void *’)
+   21 |  if(*lista != NULL && tamanio >= 0)
+      |     ~~~~~~ ^~
+      |     |
+      |     Persona {aka struct <anonymous>}
+../src/Persona.c:26:12: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   26 |    lista[i]->estado = VACIO;
+      |            ^~
+../src/Persona.c: In function ‘lista_BuscarLugarLibre’:
+../src/Persona.c:38:12: error: invalid operands to binary != (have ‘Persona’ {aka ‘struct <anonymous>’} and ‘void *’)
+   38 |  if(*lista != NULL && tamanio >= 0)
+      |     ~~~~~~ ^~
+      |     |
+      |     Persona {aka struct <anonymous>}
+../src/Persona.c:42:15: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   42 |    if(lista[i]->estado == VACIO)
+      |               ^~
+../src/Persona.c:45:13: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   45 |     lista[i]->estado = OCUPADO;
+      |             ^~
+../src/Persona.c: In function ‘lista_Imprimir’:
+../src/Persona.c:89:15: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   89 |    if(lista[i]->estado == OCUPADO)
+      |               ^~
+../src/Persona.c:92:90: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                          ^~
+../src/Persona.c:92:104: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                        ^~
+../src/Persona.c:92:122: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                          ^~
+../src/Persona.c:92:138: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                          ^~
+../src/Persona.c:92:156: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                            ^~
+../src/Persona.c:92:179: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                   ^~
+../src/Persona.c:92:202: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                                          ^~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:25:42 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_Inicializar’:
+../src/Persona.c:26:12: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   26 |    lista[i]->estado = VACIO;
+      |            ^~
+../src/Persona.c: In function ‘lista_BuscarLugarLibre’:
+../src/Persona.c:38:12: error: invalid operands to binary != (have ‘Persona’ {aka ‘struct <anonymous>’} and ‘void *’)
+   38 |  if(*lista != NULL && tamanio >= 0)
+      |     ~~~~~~ ^~
+      |     |
+      |     Persona {aka struct <anonymous>}
+../src/Persona.c:42:15: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   42 |    if(lista[i]->estado == VACIO)
+      |               ^~
+../src/Persona.c:45:13: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   45 |     lista[i]->estado = OCUPADO;
+      |             ^~
+../src/Persona.c: In function ‘lista_Imprimir’:
+../src/Persona.c:89:15: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   89 |    if(lista[i]->estado == OCUPADO)
+      |               ^~
+../src/Persona.c:92:90: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                          ^~
+../src/Persona.c:92:104: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                        ^~
+../src/Persona.c:92:122: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                          ^~
+../src/Persona.c:92:138: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                          ^~
+../src/Persona.c:92:156: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                            ^~
+../src/Persona.c:92:179: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                   ^~
+../src/Persona.c:92:202: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                                          ^~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:25:48 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_BuscarLugarLibre’:
+../src/Persona.c:38:12: error: invalid operands to binary != (have ‘Persona’ {aka ‘struct <anonymous>’} and ‘void *’)
+   38 |  if(*lista != NULL && tamanio >= 0)
+      |     ~~~~~~ ^~
+      |     |
+      |     Persona {aka struct <anonymous>}
+../src/Persona.c:42:15: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   42 |    if(lista[i]->estado == VACIO)
+      |               ^~
+../src/Persona.c:45:13: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   45 |     lista[i]->estado = OCUPADO;
+      |             ^~
+../src/Persona.c: In function ‘lista_Imprimir’:
+../src/Persona.c:89:15: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   89 |    if(lista[i]->estado == OCUPADO)
+      |               ^~
+../src/Persona.c:92:90: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                          ^~
+../src/Persona.c:92:104: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                        ^~
+../src/Persona.c:92:122: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                          ^~
+../src/Persona.c:92:138: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                          ^~
+../src/Persona.c:92:156: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                            ^~
+../src/Persona.c:92:179: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                   ^~
+../src/Persona.c:92:202: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                                          ^~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:26:06 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_Imprimir’:
+../src/Persona.c:89:15: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   89 |    if(lista[i]->estado == OCUPADO)
+      |               ^~
+../src/Persona.c:92:90: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                          ^~
+../src/Persona.c:92:104: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                        ^~
+../src/Persona.c:92:122: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                          ^~
+../src/Persona.c:92:138: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                          ^~
+../src/Persona.c:92:156: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                            ^~
+../src/Persona.c:92:179: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                   ^~
+../src/Persona.c:92:202: error: invalid type argument of ‘->’ (have ‘Persona’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i]->id, lista[i]->nombre, lista[i]->edad, lista[i]->altura, lista[i]->pFecha->dia, lista[i]->pFecha->mes, lista[i]->pFecha->anio);
+      |                                                                                                                                                                                                          ^~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:27:03 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:27:16 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_Alta’:
+../src/Persona.c:67:34: error: invalid type argument of ‘->’ (have ‘Fecha’ {aka ‘struct <anonymous>’})
+   67 |     utn_pedirInt(&auxLista.pFecha->dia, "\nIngrese dia :", "nERROR", 1, 30, 2) == 0 &&
+      |                                  ^~
+../src/Persona.c:68:34: error: invalid type argument of ‘->’ (have ‘Fecha’ {aka ‘struct <anonymous>’})
+   68 |     utn_pedirInt(&auxLista.pFecha->mes, "\nIngrese mes :", "nERROR", 1, 12, 2) == 0 &&
+      |                                  ^~
+../src/Persona.c:69:34: error: invalid type argument of ‘->’ (have ‘Fecha’ {aka ‘struct <anonymous>’})
+   69 |     utn_pedirInt(&auxLista.pFecha->anio, "\nIngrese añio :", "nERROR", 1980, 2022, 2) == 0)
+      |                                  ^~
+../src/Persona.c: In function ‘lista_Imprimir’:
+../src/Persona.c:92:159: error: invalid type argument of ‘->’ (have ‘Fecha’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i].id, lista[i].nombre, lista[i].edad, lista[i].altura, lista[i].pFecha->dia, lista[i].pFecha->mes, lista[i].pFecha->anio);
+      |                                                                                                                                                               ^~
+../src/Persona.c:92:181: error: invalid type argument of ‘->’ (have ‘Fecha’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i].id, lista[i].nombre, lista[i].edad, lista[i].altura, lista[i].pFecha->dia, lista[i].pFecha->mes, lista[i].pFecha->anio);
+      |                                                                                                                                                                                     ^~
+../src/Persona.c:92:203: error: invalid type argument of ‘->’ (have ‘Fecha’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i].id, lista[i].nombre, lista[i].edad, lista[i].altura, lista[i].pFecha->dia, lista[i].pFecha->mes, lista[i].pFecha->anio);
+      |                                                                                                                                                                                                           ^~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:27:33 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_Imprimir’:
+../src/Persona.c:92:159: error: invalid type argument of ‘->’ (have ‘Fecha’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i].id, lista[i].nombre, lista[i].edad, lista[i].altura, lista[i].pFecha->dia, lista[i].pFecha->mes, lista[i].pFecha->anio);
+      |                                                                                                                                                               ^~
+../src/Persona.c:92:181: error: invalid type argument of ‘->’ (have ‘Fecha’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i].id, lista[i].nombre, lista[i].edad, lista[i].altura, lista[i].pFecha->dia, lista[i].pFecha->mes, lista[i].pFecha->anio);
+      |                                                                                                                                                                                     ^~
+../src/Persona.c:92:203: error: invalid type argument of ‘->’ (have ‘Fecha’ {aka ‘struct <anonymous>’})
+   92 |     printf("\n %d ID - Nombre : %s - Edad : %d - Altura : %f - Fecha %d/%d/%d ", lista[i].id, lista[i].nombre, lista[i].edad, lista[i].altura, lista[i].pFecha->dia, lista[i].pFecha->mes, lista[i].pFecha->anio);
+      |                                                                                                                                                                                                           ^~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:27:51 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:28:13 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:28:14 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:29:06 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:31:53 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:31:57 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:32:18 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:32:19 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:47:50 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:47:52 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:56:02 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+../src/UTN.c: In function ‘utn_pedirFloat’:
+../src/UTN.c:433:16: warning: passing argument 1 of ‘getFloat’ from incompatible pointer type [-Wincompatible-pointer-types]
+  433 |    if(getFloat(&bufferFloat) == 0)
+      |                ^~~~~~~~~~~~
+      |                |
+      |                int *
+../src/UTN.c:360:28: note: expected ‘float *’ but argument is of type ‘int *’
+  360 | static int getFloat(float* pResultado)
+      |                     ~~~~~~~^~~~~~~~~~
+../src/UTN.c:437:14: warning: assignment to ‘float *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+  437 |      pNumero = bufferFloat;
+      |              ^
+Finished building: ../src/UTN.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:56:56 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+20:57:01 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+20:59:58 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:00:00 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+21:10:56 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:11:18 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:17:17 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_BuscarPorID’:
+../src/Persona.c:106:14: warning: comparison between pointer and integer
+  106 |    if(idBaja == lista[i].id)
+      |              ^~
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:17:22 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:18:37 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_Baja’:
+../src/Persona.c:125:8: error: array subscript is not an integer
+  125 |   lista[idBaja].estado = VACIO;
+      |        ^
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:18:43 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:21:39 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+../src/Practica_ABM.c: In function ‘main’:
+../src/Practica_ABM.c:69:59: warning: passing argument 3 of ‘lista_BuscarPorID’ makes pointer from integer without a cast [-Wint-conversion]
+   69 |     if(lista_BuscarPorID(listaPersona, CANTIDAD_PERSONAS, idBaja) >= 0)
+      |                                                           ^~~~~~
+      |                                                           |
+      |                                                           int
+In file included from ../src/Practica_ABM.c:14:
+../src/Persona.h:41:59: note: expected ‘int *’ but argument is of type ‘int’
+   41 | int lista_BuscarPorID(Persona lista[], int tamanio , int* idBaja);
+      |                                                      ~~~~~^~~~~~
+../src/Practica_ABM.c:69:8: warning: ‘idBaja’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   69 |     if(lista_BuscarPorID(listaPersona, CANTIDAD_PERSONAS, idBaja) >= 0)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:21:44 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:22:31 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+../src/Practica_ABM.c: In function ‘main’:
+../src/Practica_ABM.c:71:53: warning: passing argument 3 of ‘lista_Baja’ makes pointer from integer without a cast [-Wint-conversion]
+   71 |      if(lista_Baja(listaPersona, CANTIDAD_PERSONAS, idBaja) == 0)
+      |                                                     ^~~~~~
+      |                                                     |
+      |                                                     int
+In file included from ../src/Practica_ABM.c:14:
+../src/Persona.h:42:52: note: expected ‘int *’ but argument is of type ‘int’
+   42 | int lista_Baja(Persona lista[], int tamanio , int* idBaja);
+      |                                               ~~~~~^~~~~~
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:22:37 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:22:45 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+21:25:52 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:31:25 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_AltaForzada’:
+../src/Persona.c:137:28: warning: passing argument 2 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+  137 |  strncpy(auxLista.nombre , nombre);
+      |                            ^~~~~~
+      |                            |
+      |                            char
+In file included from ../src/Persona.h:15,
+                 from ../src/Persona.c:8:
+/usr/include/string.h:125:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Persona.c:137:2: error: too few arguments to function ‘strncpy’
+  137 |  strncpy(auxLista.nombre , nombre);
+      |  ^~~~~~~
+In file included from ../src/Persona.h:15,
+                 from ../src/Persona.c:8:
+/usr/include/string.h:125:14: note: declared here
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Persona.c:134:6: warning: unused variable ‘retorno’ [-Wunused-variable]
+  134 |  int retorno = -1;
+      |      ^~~~~~~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:31:38 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c:132:6: error: conflicting types for ‘lista_AltaForzada’
+  132 | void lista_AltaForzada(Persona lista[], int tamanio , int lugarLibre , char* nombre , int id , int edad, float altura , int dia,int mes ,int anio)
+      |      ^~~~~~~~~~~~~~~~~
+In file included from ../src/Persona.c:8:
+../src/Persona.h:43:6: note: previous declaration of ‘lista_AltaForzada’ was here
+   43 | void lista_AltaForzada(Persona lista[], int tamanio , int lugarLibre , char nombre , int id , int edad, float altura , int dia,int mes ,int anio);
+      |      ^~~~~~~~~~~~~~~~~
+../src/Persona.c: In function ‘lista_AltaForzada’:
+../src/Persona.c:137:2: error: too few arguments to function ‘strncpy’
+  137 |  strncpy(auxLista.nombre , nombre);
+      |  ^~~~~~~
+In file included from ../src/Persona.h:15,
+                 from ../src/Persona.c:8:
+/usr/include/string.h:125:14: note: declared here
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Persona.c:134:6: warning: unused variable ‘retorno’ [-Wunused-variable]
+  134 |  int retorno = -1;
+      |      ^~~~~~~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:31:45 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_AltaForzada’:
+../src/Persona.c:137:2: error: too few arguments to function ‘strncpy’
+  137 |  strncpy(auxLista.nombre , nombre);
+      |  ^~~~~~~
+In file included from ../src/Persona.h:15,
+                 from ../src/Persona.c:8:
+/usr/include/string.h:125:14: note: declared here
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Persona.c:134:6: warning: unused variable ‘retorno’ [-Wunused-variable]
+  134 |  int retorno = -1;
+      |      ^~~~~~~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:32:09 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c: In function ‘lista_AltaForzada’:
+../src/Persona.c:134:6: warning: unused variable ‘retorno’ [-Wunused-variable]
+  134 |  int retorno = -1;
+      |      ^~~~~~~
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:32:19 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:32:26 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+21:35:16 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:35:19 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+21:36:20 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+21:36:23 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+21:58:45 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+22:00:34 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+22:02:34 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+../src/Persona.c:132:6: error: conflicting types for ‘lista_AltaForzada’
+  132 | void lista_AltaForzada(Persona lista[], int tamanio , int lugarLibre , char* nombre , int edad, float altura , int dia,int mes ,int anio)
+      |      ^~~~~~~~~~~~~~~~~
+In file included from ../src/Persona.c:8:
+../src/Persona.h:43:6: note: previous declaration of ‘lista_AltaForzada’ was here
+   43 | void lista_AltaForzada(Persona lista[], int tamanio , int lugarLibre , char* nombre , int id , int edad, float altura , int dia,int mes ,int anio);
+      |      ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Persona.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:02:49 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Persona.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Persona.d" -MT"src/Persona.o" -o "src/Persona.o" "../src/Persona.c"
+Finished building: ../src/Persona.c
+ 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+../src/Practica_ABM.c: In function ‘main’:
+../src/Practica_ABM.c:37:2: error: too many arguments to function ‘lista_AltaForzada’
+   37 |  lista_AltaForzada(listaPersona, CANTIDAD_PERSONAS, 0, "Migue", 0, 20, 1.70, 10,12, 2001);
+      |  ^~~~~~~~~~~~~~~~~
+In file included from ../src/Practica_ABM.c:14:
+../src/Persona.h:43:6: note: declared here
+   43 | void lista_AltaForzada(Persona lista[], int tamanio , int lugarLibre , char* nombre , int edad, float altura , int dia,int mes ,int anio);
+      |      ^~~~~~~~~~~~~~~~~
+../src/Practica_ABM.c:38:2: error: too many arguments to function ‘lista_AltaForzada’
+   38 |  lista_AltaForzada(listaPersona, CANTIDAD_PERSONAS, 1, "Alexis", 1, 20, 1.63, 18,4, 2001);
+      |  ^~~~~~~~~~~~~~~~~
+In file included from ../src/Practica_ABM.c:14:
+../src/Persona.h:43:6: note: declared here
+   43 | void lista_AltaForzada(Persona lista[], int tamanio , int lugarLibre , char* nombre , int edad, float altura , int dia,int mes ,int anio);
+      |      ^~~~~~~~~~~~~~~~~
+../src/Practica_ABM.c:39:2: error: too many arguments to function ‘lista_AltaForzada’
+   39 |  lista_AltaForzada(listaPersona, CANTIDAD_PERSONAS, 2, "Pepe", 2, 63, 1.62, 9,5, 1990);
+      |  ^~~~~~~~~~~~~~~~~
+In file included from ../src/Practica_ABM.c:14:
+../src/Persona.h:43:6: note: declared here
+   43 | void lista_AltaForzada(Persona lista[], int tamanio , int lugarLibre , char* nombre , int edad, float altura , int dia,int mes ,int anio);
+      |      ^~~~~~~~~~~~~~~~~
+../src/Practica_ABM.c:40:2: error: too many arguments to function ‘lista_AltaForzada’
+   40 |  lista_AltaForzada(listaPersona, CANTIDAD_PERSONAS, 3, "Abel", 3, 32, 1.70, 19,8, 1999);
+      |  ^~~~~~~~~~~~~~~~~
+In file included from ../src/Practica_ABM.c:14:
+../src/Persona.h:43:6: note: declared here
+   43 | void lista_AltaForzada(Persona lista[], int tamanio , int lugarLibre , char* nombre , int edad, float altura , int dia,int mes ,int anio);
+      |      ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Practica_ABM.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:03:05 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+Building file: ../src/Practica_ABM.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_ABM.d" -MT"src/Practica_ABM.o" -o "src/Practica_ABM.o" "../src/Practica_ABM.c"
+Finished building: ../src/Practica_ABM.c
+ 
+Building target: Practica_ABM
+Invoking: GCC C Linker
+gcc  -o "Practica_ABM"  ./src/Persona.o ./src/Practica_ABM.o ./src/UTN.o   
+Finished building target: Practica_ABM
+ 
+22:03:09 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+22:04:32 **** Incremental Build of configuration Debug for project Practica_ABM ****
+make all 
+make: No se hace nada para 'all'.
+22:04:34 **** Incremental Build of configuration Debug for project Practica_ABM ****
 make all 
 make: No se hace nada para 'all'.
